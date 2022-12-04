@@ -22,13 +22,16 @@ body{
     list-style: none;
 }
 
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .container{
     width: 1200px;
-    margin: auto;
-    padding: 0  15px;
-   
-
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
 }
+
 .header{
     background-color: #FFFFFF;
     
@@ -59,9 +62,11 @@ body{
     align-items: center;
 }
 .nav{
-    display: flex;
-
+display: flex;
+margin: 0;
+padding: 0:
 }
+
 .link-nav{
 color: var(--h-color); 
 font-size: 14px;
@@ -70,14 +75,13 @@ line-height: 1.14;
 letter-spacing: var(--letter-spacing-tel-email);
 margin-right: 50px; 
 display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 .item{
     margin-right: 50px; 
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;;
+    
 }
 .item:last-child{
     margin-right: 0;
@@ -87,6 +91,7 @@ display: block;
 
 
 .email-tel{
+    margin-left: auto;
     display: flex;
 }
 .link-email-tel-text {
@@ -97,7 +102,7 @@ display: block;
     letter-spacing: var(--letter-spacing-tel-email);
     display: flex;
     padding-top: 32px;
-    padding-bottom: 32px;;
+    padding-bottom: 32px;
 
 }
 
@@ -111,9 +116,7 @@ display: block;
 
 .hero{
   background-color: var(--bgd-color);
-  width: 1600px;
-  height: 600px;
-  top: 80px;
+  padding: 200px 0;
 }
 
 .hero-title{
@@ -122,9 +125,10 @@ display: block;
     line-height: 1.3;
     font-weight: 900;
    letter-spacing: var(--letter-spacing-hero);
+
+   padding: 200px 452px 280px 452px;
    text-transform: uppercase;
    text-align: center;
-   margin: 0 auto 30px;
 }
 .hero-button{
     background-color: #2196F3;
@@ -135,6 +139,8 @@ display: block;
     font-weight: 700;
     line-height: 1.8;
     letter-spacing: var(--letter-spacing-hero) ;
+
+    margin: 350px 700px 200px 700px;
 }
 
 
